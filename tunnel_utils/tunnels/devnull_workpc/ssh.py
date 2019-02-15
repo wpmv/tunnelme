@@ -39,7 +39,7 @@ class DevnullWorkPCTunnel(BaseSSHTunnel):
         time.sleep(random.uniform(0.1, 1.0))
         logger.info("Authenticating with {}...".format(self.hostname))
         ssh_tunnel.sendline(self.target_password)
-        ssh_tunnel.expect("$")
+        ssh_tunnel.expect(self.success_prompt)
         logger.info("Successfully connected!")
         return ssh_tunnel
 
