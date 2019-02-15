@@ -47,7 +47,7 @@ class GridCard:
         return data
 
     def get_coordinate(self, key, number):
-        return self.grid_data[str(key).lower()][int(number)-1]
+        return self.grid_data['grid'][str(key).lower()][int(number)-1]
 
     def get_serial(self):
         return self.grid_data['serial']
