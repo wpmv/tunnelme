@@ -1,0 +1,16 @@
+strictness: medium
+test-warnings: true
+doc-warnings: true
+pep8:
+  full: true
+ignore-patterns:
+  - 'build/*'
+  - 'docs/conf.py'
+  - 'setup.py'
+pep257:
+  disable:
+    - D203
+    - D213
+    - D406
+    - D407
+    - D413

@@ -1,0 +1,16 @@
+--index-url https://pydevtools.ent.tds.net/devpi/root/prod/+simple
+
+bumpversion
+coverage
+ipython
+mock
+pdbpp
+prospector
+pytest
+pytest-coverage
+pytest-mock
+sphinx
+sphinx_rtd_theme
+tox
+watchdog
+wheel

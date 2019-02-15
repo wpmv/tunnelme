@@ -1,0 +1,4 @@
+[report]
+include=*/tunnel_utils/*
+omit=
+    */tests/*

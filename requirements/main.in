@@ -1,0 +1,7 @@
+--index-url https://pydevtools.ent.tds.net/devpi/root/prod/+simple
+
+
+click
+pexpect
+jsonschema
+
