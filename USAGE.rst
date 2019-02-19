@@ -10,17 +10,18 @@ instructions are geared toward that single approach.
 
 Prerequisites
 -------------
+
 - Cygwin with the following packages installed:
     - python3
     - pip
     - ssh
-- SSH config_ on Cygwin for forwarding appropriate ports and tunneling via ``ssh <YOUR WORKPC>.workpc.tds.net``
+- `SSH config`_ on Cygwin for forwarding appropriate ports and tunneling via ``ssh <YOUR WORKPC>.workpc.tds.net``
 - YAML file containing a digitized version of your Entrust grid card
-    - Schema for the YAML file is defined in the grid_card.py_ base class. You can also use this example:
+    - Schema for the YAML file is defined in the `grid_card.py`_ base class. You can also use this example:
 
-.. _grid_card.py: https://git.ent.tds.net/usrolh/tunnel-utils/blob/master/tunnel_utils/grid_card.py#L11
+.. _`grid_card.py`: https://git.ent.tds.net/usrolh/tunnel-utils/blob/master/tunnel_utils/grid_card.py#L11
 
-.. _config: https://wiki.tds.net/display/CloudTV/Configure+Cygwin+for+Work+PC
+.. _`SSH config`: https://wiki.tds.net/display/CloudTV/Configure+Cygwin+for+Work+PC
 
 .. code-block:: yaml
 
