@@ -7,7 +7,29 @@
 --index-url https://pydevtools.ent.tds.net/devpi/root/prod/+simple
 --trusted-host pydevtools.ent.tds.net
 
+alabaster==0.7.12         # via sphinx
+babel==2.6.0              # via sphinx
+certifi==2018.11.29       # via requests
+chardet==3.0.4            # via requests
 click==7.0
+docutils==0.14            # via sphinx
+idna==2.8                 # via requests
+imagesize==1.1.0          # via sphinx
+jinja2==2.10              # via sphinx
 jsonschema==2.6.0
+markupsafe==1.1.0         # via jinja2
+packaging==19.0           # via sphinx
 pexpect==4.6.0
 ptyprocess==0.6.0         # via pexpect
+pygments==2.3.1           # via sphinx
+pyparsing==2.3.1          # via packaging
+pytest-runner==4.4
+pytz==2018.9              # via babel
+pyyaml==3.13
+requests==2.21.0          # via sphinx
+six==1.12.0               # via packaging, sphinx
+snowballstemmer==1.2.1    # via sphinx
+sphinx==1.8.4
+sphinxcontrib-websupport==1.1.0  # via sphinx
+urllib3==1.24.1           # via requests
+wheel==0.33.1

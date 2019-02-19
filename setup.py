@@ -41,7 +41,6 @@ setup(
     entry_points={
         'console_scripts': [
             'start_tunnel=tunnel_utils.main:main',
-            # You will want to update this
         ],
     },
     license="All Rights Reserved",

@@ -4,4 +4,8 @@
 click
 pexpect
 jsonschema
+PyYAML
+wheel
+sphinx
+pytest-runner
 
